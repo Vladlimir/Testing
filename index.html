@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="stylesForJs.css"> <!-- Стили для уведомлений -->
+    <link rel="stylesheet" href="stylesForHTML.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест на знание</title>
+</head>
+<body>
+
+<h1>Проверка знаний на рабочем месте для технического специалиста отдела сопровождения пользователей</h1>
+
+<div id="userInfo">
+    <h2>Введите ваши данные</h2>
+    <form id="userForm">
+        <input type="text" id="firstName" placeholder="Имя" required>
+        <input type="text" id="lastName" placeholder="Фамилия" required>
+        <input type="text" id="middleName" placeholder="Отчество" required>
+    </form>
+</div>
+
+<form id="quizForm">
+    <div class="question">
+        <h2>1. Что такое системное администрирование?</h2> 
+        <ul class="options">
+            <li><input type="radio" name="question1" value="Ответ 1"> Процесс управления, технического обслуживания и проведения других технических и административных мероприятий, направленных на поддержание вычислительной системы в рабочем состоянии</li>
+            <li><input type="radio" name="question1" value="Ответ 2"> Управление конфигурациями активного сетевого оборудования</li>
+            <li><input type="radio" name="question1" value="Ответ 3"> Процесс установки прикладного программного обеспечения</li>
+        </ul>
+    </div>
+    
+    <div class="question">
+        <h2>2. Какие варианты организации системного администрирования есть?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question2" value="Ответ 1"> Наличие в компании штатного специалиста</li>
+            <li><input type="radio" name="question2" value="Ответ 2"> Частичная или полная передача товаров/работ и услуг по поддержке, обслуживанию и модернизации ИТ-инфраструктуры в руки сторонней компании</li>
+            <li><input type="radio" name="question2" value="Ответ 3"> Все вышеперечисленное</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h2>3. Что такое ИТ-аутсорсинг?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question3" value="Ответ 1"> Механизм удаленного управления инфраструктурой Заказчика</li>
+            <li><input type="radio" name="question3" value="Ответ 2"> Передача стороннему подрядчику ряда внутренних услуг и (или) внутренних сервисов компании-заказчика, в том числе на основе использования (например, аренды) его программных продуктов, приложений, технических средств и фрагментов инфраструктуры</li>
+            <li><input type="radio" name="question3" value="Ответ 3"> Привлечение сотрудников через стороннюю компанию для выполнения определённых задач или проектов, при этом управление работой этих сотрудников остаётся за Заказчиком</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h2>4. Типы ИТ-аутсорсинга (выберите ответ, который содержит только правильные варианты)</h2>
+        <ul class="options">
+            <li><input type="radio" name="question4" value="Ответ 1"> Хостинг сайта компании, абонентское обслуживание ПК, аутсорсинг центров обработки данных, внешнее размещение инфокоммуникационных систем, разработка программного обеспечения</li>
+            <li><input type="radio" name="question4" value="Ответ 2"> Хостинг сайта компании, управление технологическими процессами предприятия, аутсорсинг центров обработки данных, внешнее размещение инфокоммуникационных систем, разработка программного обеспечения</li>
+            <li><input type="radio" name="question4" value="Ответ 3"> Абонентское обслуживание ПК, создание рекламных материалов, аутсорсинг центров обработки данных, внешнее размещение инфокоммуникационных систем, разработка программного обеспечения</li>
+            <li><input type="radio" name="question4" value="Ответ 4"> Хостинг сайта компании, абонентское обслуживание ПК, аутсорсинг центров обработки данных, обучение сотрудников по общим вопросам, разработка программного обеспечения</li>
+            <li><input type="radio" name="question4" value="Ответ 5"> Внешнее размещение инфокоммуникационных систем, консультирование по вопросам финансового учета, абонентское обслуживание ПК, аутсорсинг центров обработки данных, разработка программного обеспечения</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h2>5. Основные обязанности сотрудника отдела сопровождения пользователей?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question5" value="Ответ 1"> Выполнение работ по личным просьбам пользователей</li>
+            <li><input type="radio" name="question5" value="Ответ 2"> Обеспечение штатной работы парка компьютерной техники по заявкам пользователей, сети и системного программного обеспечения, а также контроль за уровнем информационной безопасности</li>
+            <li><input type="radio" name="question5" value="Ответ 3"> Разработка и отладка информационных систем</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h2>6. Что такое Active Directory?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question6" value="Ответ 1"> Информационная система для управления доступами и учетными записями пользователей</li>
+            <li><input type="radio" name="question6" value="Ответ 2"> служба каталогов Microsoft, которая позволяет администраторам управлять и контролировать доступ пользователей к ресурсам в сети</li>
+            <li><input type="radio" name="question6" value="Ответ 3"> Глобальный каталог, содержащий информацию о каждом объекте в каталоге</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h2>7. Что такое Group Policy в Active Directory?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question7" value="Ответ 1"> Служба планирования и управления параметрами приложений Windows</li>
+            <li><input type="radio" name="question7" value="Ответ 2"> Инструмент Windows для централизованных настроек параметров и конфигураций ОС, позволяет применять настройки для всех или конкретных групп пользователей и устройств в Active Directory</li>
+            <li><input type="radio" name="question7" value="Ответ 3"> Служба активации приложений на сервере</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h2>8. Что такое LAN?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question8" value="Ответ 1"> Компьютерная сеть, охватывающая большие территории и включающая большое число узлов, возможно находящиеся в различных городах и странах</li>
+            <li><input type="radio" name="question8" value="Ответ 2"> Локальная сеть компьютеров, сосредоточенных на небольшой территории</li>
+            <li><input type="radio" name="question8" value="Ответ 3"> Узел сетевого оборудования, предназначенный для промежуточной переадресации адресов</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h2>9. Что такое TCP/IP?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question9" value="Ответ 1"> Протокол клиента или сервера, который автоматически предоставляет узел протокола IP с его IP-адресом и другие связанные сведения о конфигурации</li>
+            <li><input type="radio" name="question9" value="Ответ 2"> Физический адрес устройства в сети</li>
+            <li><input type="radio" name="question9" value="Ответ 3"> Набор протоколов, который задает стандарты связи между компьютерами и содержит подробные соглашения о маршрутизации и межсетевом взаимодействии</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h2>10. Что такое MAC-адрес?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question10" value="Ответ 1"> Уникальный числовой идентификатор устройства в компьютерной сети, работающей по протоколу IP</li>
+            <li><input type="radio" name="question10" value="Ответ 2"> Узел сетевого взаимодействия между конечными абонентами локальной вычислительной сети</li>
+            <li><input type="radio" name="question10" value="Ответ 3"> Уникальный идентификатор, присваиваемый каждой единице сетевого оборудования или некоторым их интерфейсам в компьютерных сетях Ethernet</li>
+        </ul>
+    </div>
+    
+    <div class="question">
+        <h2>11. Что такое IP-адрес?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question11" value="Ответ 1"> Уникальный числовой идентификатор устройства в компьютерной сети, работающей по протоколу IP</li>
+            <li><input type="radio" name="question11" value="Ответ 2"> Уникальный идентификатор, присваиваемый каждой единице сетевого оборудования или некоторым их интерфейсам</li>
+            <li><input type="radio" name="question11" value="Ответ 3"> Протокол подключения оборудования (сетевого интерфейса) в компьютерных сетях Ethernet</li>
+        </ul>
+    </div>
+    
+    <div class="question">
+        <h2>12. Что такое DHCP (Dynamic Host Configuration Protocol)?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question12" value="Ответ 1"> Сетевой протокол, позволяющий сетевым устройствам автоматически получать IP-адрес и другие параметры, необходимые для работы в сети TCP/IP</li>
+            <li><input type="radio" name="question12" value="Ответ 2"> Служба, которая позволяет настраивать параметры подключения устройства к локальной вычислительной сети</li>
+            <li><input type="radio" name="question12" value="Ответ 3"> Драйвер для настройки сетевых параметров устройства</li>
+        </ul>
+    </div>
+    
+    <div class="question">
+        <h2>13. Какая максимальная длина кабеля UTP должна быть при прокладке?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question13" value="Ответ 1"> 99 метров</li>
+            <li><input type="radio" name="question13" value="Ответ 2"> 100 метров без потери качества сигнала</li>
+            <li><input type="radio" name="question13" value="Ответ 3"> Любая</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h2>14. Схема обжимки витой пары по стандарту EIA/TIA-568B</h2>
+        <ul class="options">
+            <li><input type="radio" name="question14" value="Ответ 1"> БО-О, БЗ-З, БС-С, БК-К</li>
+            <li><input type="radio" name="question14" value="Ответ 2"> БО-О, БЗ-С, БС-З, БК-К</li>
+            <li><input type="radio" name="question14" value="Ответ 3"> БЗ-З, БО-С, БС-О, БК-К</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h2>15. Как можно проверить доступность устройства по сети?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question15" value="Ответ 1"> Командой ping</li>
+            <li><input type="radio" name="question15" value="Ответ 2"> Командой nslookup</li>
+            <li><input type="radio" name="question15" value="Ответ 3"> Все вышеперечисленное</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h2>16. Что такое Реестр Windows?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question16" value="Ответ 1"> Приложение, позволяющее конфигурировать параметры операционной среды</li>
+            <li><input type="radio" name="question16" value="Ответ 2"> Служба, позволяющая запускать необходимые приложения при запуске системы</li>
+            <li><input type="radio" name="question16" value="Ответ 3"> Иерархически построенная база данных параметров и настроек в большинстве операционных систем Microsoft Windows</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h2>17. Какой командой проверяется доступной портов?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question17" value="Ответ 1"> Ipconfig</li>
+            <li><input type="radio" name="question17" value="Ответ 2"> Nslookup</li>
+            <li><input type="radio" name="question17" value="Ответ 3"> telnet</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h2>18. Какие типы сетевых атак Вы знаете?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question18" value="Ответ 1"> DDOS-атаки</li>
+            <li><input type="radio" name="question18" value="Ответ 2"> Фишинг</li>
+            <li><input type="radio" name="question18" value="Ответ 3"> Вредоносные программы (Malware)</li>
+            <li><input type="radio" name="question18" value="Ответ 4"> Все вышеперечисленное</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h2>19. Что такое WSUS?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question19" value="Ответ 1"> Набор протоколов, который позволяет устанавливать приложения и драйвера устройств</li>
+            <li><input type="radio" name="question19" value="Ответ 2"> Служба для развёртывания обновления продуктов Майкрософт</li>
+            <li><input type="radio" name="question19" value="Ответ 3"> Протокол Интернета для передачи данных на сервера</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h2>20. Что такое операционная система?</h2>
+        <ul class="options">
+            <li><input type="radio" name="question20" value="Ответ 1"> Среда разработки приложений для функционирования блоков оборудования</li>
+            <li><input type="radio" name="question20" value="Ответ 2"> программное обеспечение, управляющее компьютерами (включая микроконтроллеры) и позволяющее запускать на них прикладные программы</li>
+            <li><input type="radio" name="question20" value="Ответ 3"> набор драйверов и приложений для функционирования оборудования</li>
+        </ul>
+    </div>
+
+    <button type="submit">Сохранить результаты тестирования</button>
+</form>
+
+<div id="result"></div> <!-- Элемент для вывода результата -->
+<button id="showResults">Показать результаты тестирования</button> <!-- Кнопка для показа результатов -->
+<button id="clearResults">Очистить результаты тестирования</button> <!-- Кнопка для очистки результатов -->
+<div id="savedResults"></div> <!-- Элемент для вывода сохраненных результатов -->
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
